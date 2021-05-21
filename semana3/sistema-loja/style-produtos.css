@@ -1,0 +1,31 @@
+div.menu {
+    display: block;
+}
+.menu {
+    display: inline;
+    text-transform: uppercase;
+    background-color: #bbbbbb;
+    padding: 10px;  
+    position: absolute;
+    top: 10px;
+    left: 600px;
+}
+.menu a {
+    display: inline;
+    color: black;
+    padding: 10px;
+}
+h2 {
+    margin-top: 5%;
+    margin-left: 20%;
+    font-size: 30px;
+}
+.formulario {
+}
+button {
+    color: red;
+    background-color: black;
+    border-bottom: red;
+    padding: 10px;
+    margin: 10px 15px 10px 30px;
+}

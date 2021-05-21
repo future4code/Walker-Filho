@@ -1,0 +1,25 @@
+div.menu {
+    display: block;
+}
+.img-dragao {
+    display: block;
+    padding: 0;
+    width: auto;
+}
+.menu {
+    display: inline;
+    text-transform: uppercase;
+    background-color: #bbbbbb;
+    padding: 10px;  
+    position: absolute;
+    top: 10px;
+    left: 600px;
+}
+.menu a {
+    display: inline;
+    color: black;
+    padding: 10px;
+}
+.rede-social {
+    
+}

@@ -1,0 +1,22 @@
+div.menu {
+    display: block;
+}
+.menu {
+    display: inline;
+    text-transform: uppercase;
+    background-color: #bbbbbb;
+    padding: 10px;  
+    position: absolute;
+    top: 10px;
+    left: 600px;
+}
+.menu a {
+    display: inline;
+    color: black;
+    padding: 10px;
+}
+.equipamento.topo {
+}
+.equipamentos tr {
+    background-color: silver;
+}
