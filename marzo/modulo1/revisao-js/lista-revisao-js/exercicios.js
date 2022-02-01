@@ -43,13 +43,19 @@ console.log(retornaNumerosParesElevadosADois)
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-  
+  return Math.max(...array)
 }
+console.log(retornaMaiorNumero)
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
-
+    let maiorNumero = Math.max(...array)
+    let menorNumero = Math.min(...array)
+    let maiorDivisivelPorMenor = (maiorNumero / menorNumero) === 0
+    let diferenca = maiorNumero - menorNumero
+    return maiorNumero, maiorDivisivelPorMenor, diferenca
 }
+console.log(retornaObjetoEntreDoisNumeros)
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
