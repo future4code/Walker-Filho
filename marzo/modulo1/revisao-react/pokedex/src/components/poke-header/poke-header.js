@@ -1,7 +1,7 @@
-import styled from 'styled-component';
+import styled from 'styled-components';
 
 
 export const PokeHeader = styled.div`
-    width: 40%;
+    width: 100%;
     height: 200px;
 `;

@@ -1,8 +1,8 @@
 import { Router } from './router';
 
-function App() {
+function App () {
   return (
-    <h1>Home</h1>
+    <Router />
   );
 }
 
