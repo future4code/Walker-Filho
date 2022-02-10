@@ -1,10 +1,10 @@
-import React from 'react';
+import { Router } from './router';
 
-function App() {
+
+function App () {
   return (
-    <div >
-    </div>
-  );
+    <Router />
+    );
 }
 
-export defaut App;
+export default App;
