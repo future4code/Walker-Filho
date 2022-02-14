@@ -1,8 +1,11 @@
+import { BackImage } from './components';
 import { Router } from './router';
 
 function App() {
   return (
-  <Router />
+  <BackImage>
+    <Router />
+  </BackImage>
   );
 }
 
