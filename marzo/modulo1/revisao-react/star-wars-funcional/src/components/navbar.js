@@ -7,13 +7,20 @@ const NavBarStyled = styled.nav`
 
     >ul {
         list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        
 
         >li {
             display: inline-block;
-            padding: 15px;
+            padding: 15px 32px;
             border: 1px solid black;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
             &:hover {
-                cursor: pointer;
                 background: white;
             }
         }
