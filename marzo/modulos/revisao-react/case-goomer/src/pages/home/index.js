@@ -1,19 +1,28 @@
 import { useEffect, useState } from "react"
 import { getRestaurants } from '../../utils/api'
+import { RestaurantCard } from "../../components";
+import { Header, PageTitle } from './styled';
 
 export const HomePage = () => {
 
-    const [restaurants, getRestaurants] = useState([]);
+    const [restaurant, setRestaurants] = useState([]);
 
     useEffect(() => {
         getRestaurants()
-        .then(response => console.log(response))
+        .then((resposta) => {
+            setRestaurants(resposta.response)
+        })
     }, []);
 
     return(
         <>
-        <h1>Home</h1>
-        {restaurants.map(restaurants => <p>{JSON.stringify(restaurants)}</p>)}
+        <Header />
+        <PageTitle>Bem-vindo ao Lista Rango </PageTitle>
+        {restaurant.map(restaurant => { 
+            return (
+                <RestaurantCard key={restaurant.id} name={restaurant.name} address={restaurant.address} />
+            )
+    })}
         </>
     )
 }
